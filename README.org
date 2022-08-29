@@ -1,0 +1,17 @@
+* Zfs-Snapshot  - CLI tool for managing zfs snapshots from a config file.
+
+** Usage
+
+** Installation
+
+** Author
+
++ Tim Hawes (trhawes@gmail.com)
+
+** Copyright
+
+Copyright (c) 2022 Tim Hawes (trhawes@gmail.com)
+
+** License
+
+Licensed under the MIT License.
