@@ -1,6 +1,4 @@
-(defpackage zfs-snapshot
-  (:use :cl)
-  (:export :-main))
+
 (in-package :zfs-snapshot)
 
 

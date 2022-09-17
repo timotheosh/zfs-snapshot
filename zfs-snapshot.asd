@@ -9,7 +9,8 @@
                #:json-mop)
   :components ((:module "src"
                 :components
-                ((:file "main"))))
+                ((:file "package")
+                 (:file "main"))))
   :description "CLI tool for managing zfs snapshots from a config file."
   :in-order-to ((test-op (test-op "zfs-snapshot/tests")))
   :build-operation "asdf:program-op"
