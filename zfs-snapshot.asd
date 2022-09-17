@@ -2,11 +2,11 @@
   :version "0.1.0"
   :author "Tim Hawes"
   :license "MIT"
-  :depends-on ("cl-ppcre"
-               "unix-opts"
-               "local-time"
-               "verbose"
-               "json-mop")
+  :depends-on (#:cl-ppcre
+               #:unix-opts
+               #:local-time
+               #:verbose
+               #:json-mop)
   :components ((:module "src"
                 :components
                 ((:file "main"))))
